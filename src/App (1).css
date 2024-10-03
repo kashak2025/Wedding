@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+button{
+  width: 150px;
+  height: 30px;
+  background-color: maroon;
+  color: white;
+  padding: 5px; 
+  margin: 10px;
+  border: 2px solid black;
+}
+.active{
+  background-color: white;
+  color: maroon;
+  border: 2px solid maroon;
+}
