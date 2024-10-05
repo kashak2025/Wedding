@@ -1,31 +1,31 @@
-import { Box, Container } from '@mui/material'
-import Img from '../Images/Hero.jpg'
+import { Box, Container, TextField } from '@mui/material'
 import React from 'react'
 import { Field, Form, Formik } from 'formik'
-import { Padding } from '@mui/icons-material'
+import { Padding, TextFields } from '@mui/icons-material'
 
 const Signup = () => {
   return (
     <Box>
         <Container>
-            <Box sx={{display:'flex', alignItems:'center', justifyContent:'center', borderRadius: '50px',  position: 'relative', top:'100px'}}>
-                <Box sx={{width:'50%'}}>
-                    {/* <img src={Img} width={"100%"} height={"100%"} sx={{overFlow:'hidden'}} alt="" /> */}
+            <Box sx={{display:'flex', alignItems:'center', justifyContent:'center', border:'1px solid black', borderRadius:'10px',  position: 'relative', top:'100px'}}>
+                <Box sx={{width:'100%' ,textAlign:'center', py:'90px', position:'abdolute', top:'0px',borderRadius:'10px',backgroundImage:"url('https://i.pinimg.com/564x/4c/a7/e3/4ca7e3e9f3e02ea0b1397d563d601ff8.jpg')", backgroundSize:'cover', backgroundAttachment:'fixed',}}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', fontSize: { lg: 45, md: 40, sm: 35, xs: 30 }, textTransform: 'uppercase', color: '#d4c6b9', fontFamily:'"Prosto One", system-ui', margin: { lg: '36px 0px 21px 0px', md: '  10px', sm: 'auto', } }} >
+                    Sign up
                 </Box>
-                <Box sx={{width:'50%' ,textAlign:'center'}}>
                     <Formik>
-                        <Form style={{color:'#000'}}>
-                            Username :- <Field type='text' ></Field><br /><br /> 
-                            Email :- <Field type='email' ></Field><br /><br /> 
-                            password :- <Field type='email' ></Field><br /><br /> 
-                            Contact No :- <Field type='number' ></Field><br /><br />
-                            DOB :- <Field type="date"></Field><br /><br />
-                            <button type='submit'>submit</button>
+                        <Form style={{width:'100%',color:'#000', ontWeight:'600px', fontFamily:'"Prosto One", system-ui', fontSize:'24px'}}>
+                            <Field as={TextField} type='file' placeholder='Image'></Field><br /><br /> 
+                            <Field as={TextField} type='text' placeholder='Username'></Field><br /><br /> 
+                            <Field as={TextField} type='email'  placeholder="Email"></Field><br /><br /> 
+                            <Field as={TextField} type='password'  placeholder="Password"></Field><br /><br /> 
+                            <Field as={TextField} type='number'  placeholder="Contact No"></Field><br /><br />
+                            <button type='submit' className="log-sub">Submit</button>
                         </Form>
                     </Formik>
                 </Box>
             </Box>
         </Container>
+               
     </Box>
   )
 }

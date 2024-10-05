@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-const pages = ['about us', 'category', 'blog', 'contact us'];
+const pages = ['about us', 'category', 'blog', 'contact'];
 
 const Header = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);

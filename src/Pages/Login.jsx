@@ -1,35 +1,32 @@
-import { Box, Container } from '@mui/material'
-import Img from '../Images/Hero.jpg'
+import { Box, Container, TextField } from '@mui/material'
 import React from 'react'
+import { Field, Form, Formik } from 'formik'
+import { Padding, TextFields } from '@mui/icons-material'
 
-const Login = () => {
+
+const Signup = () => {
   return (
     <Box>
         <Container>
-            <Box sx={{display:'flex', alignItems:'center', justifyContent:'center', borderRadius: '50px', backgroundColor: '#e65e5a', position: 'relative', top:'100px'}}>
-                <Box sx={{width:'50%'}}>
-                    {/* imgage */}
-                    <img src={Img} width={"100%"} height={"100%"} sx={{overFlow:'hidden'}} alt="" />
+            <Box sx={{display:'flex', alignItems:'center', justifyContent:'center', border:'1px solid black', borderRadius:'10px',  position: 'relative', top:'100px'}}>
+                <Box sx={{width:'100%' ,textAlign:'center', py:'90px', borderRadius:'10px',backgroundImage:"url('https://i.pinimg.com/564x/4c/a7/e3/4ca7e3e9f3e02ea0b1397d563d601ff8.jpg')", backgroundSize:'cover', backgroundAttachment:'fixed',}}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', fontSize: { lg: 45, md: 40, sm: 35, xs: 30 }, textTransform: 'uppercase', color: '#d4c6b9', fontFamily:'"Prosto One", system-ui', margin: { lg: '36px 0px 21px 0px', md: '  10px', sm: 'auto', } }} >
+                    Sign in
                 </Box>
-                <Box sx={{width:'50%'}}>
-                    Content {/*form
-                            email
-                            pass /// if user is connected with mobile
-                         */}
-                    {/* Signup form
-                            user name
-                            contact
-                            --> otp in contact
-                            email
-                            --> otp in Email
-                            pass /// if user is connected with mobile
-                            Confirm pass /// if user is connected with mobile
-                         */}
+                    <Formik>
+                        <Form style={{width:'100%',color:'#000', ontWeight:'600px', fontFamily:'"Prosto One", system-ui', fontSize:'24px'}}>
+                            <Field as={TextField} type='text' placeholder='Username' style={{color:'red !important'}}></Field><br /><br /> 
+                            <Field as={TextField} type='email'  placeholder="Email"></Field><br /><br /> 
+                            <Field as={TextField} type='password'  placeholder="Password"></Field><br /><br /> 
+                            <button type='submit' className="log-sub">Submit</button>
+                        </Form>
+                    </Formik>
                 </Box>
             </Box>
         </Container>
+               
     </Box>
   )
 }
 
-export default Login
+export default Signup

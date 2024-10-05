@@ -41,7 +41,7 @@
 }
 .img::before{
   content: '';
-  background-color: rgba(0, 0, 0, 0.650);
+  background-color: rgba(0, 0, 0, 0.45);
   border-radius: 307px;
   position: absolute;
   top: 0;
@@ -51,9 +51,22 @@
   display: inline-block;
 }
 
+.Signup{
+  width: 100%;
+  background-size: cover;
+}
 
+.log-sub {
+  padding: 10px 30px;
+  background-color: #2f0707;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family :"Prosto One", system-ui;
+  border: none;
 
-button{
+}
+/* button{
   width: 150px;
   height: 30px;
   background-color: maroon;
@@ -66,4 +79,9 @@ button{
   background-color: white;
   color: maroon;
   border: 2px solid maroon;
-}
+} */
+ .css-1jk99ih-MuiInputBase-input-MuiOutlinedInput-input {
+  border: 2px solid #000 !important;
+  color: brown !important;
+  border-radius: 5px !important;
+ }

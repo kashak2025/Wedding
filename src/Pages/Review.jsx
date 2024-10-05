@@ -34,19 +34,19 @@ function Review() {
       <div className="slider-container">
         <Slider {...settings}>
           <Box>
-            <video src={Reviews1} autoPlay muted loop style={{margin: 20    , width: '100%'}}></video>
+            <video src={Reviews1} autoPlay muted loop style={{margin: 20, width: '100%'}}></video>
           </Box>
           <Box>
-            <video src={Reviews2} autoPlay muted loop style={{margin: 20    , width: '100%'}}></video>
+            <video src={Reviews2} autoPlay muted loop style={{margin: 20, width: '100%'}}></video>
           </Box>
           <Box>
-            <video src={Reviews3} autoPlay muted loop style={{margin: 20    , width: '100%'}}></video>
+            <video src={Reviews3} autoPlay muted loop style={{margin: 20, width: '100%'}}></video>
           </Box>
           <Box>
-            <video src={Reviews4} autoPlay muted loop style={{margin: 20    , width: '100%'}}></video>
+            <video src={Reviews4} autoPlay muted loop style={{margin: 20, width: '100%'}}></video>
           </Box>
           <Box>
-            <video src={Reviews5} autoPlay muted loop style={{margin: 20    , width: '100%'}}></video>
+            <video src={Reviews5} autoPlay muted loop style={{margin: 20, width: '100%'}}></video>
           </Box>
 
           <Box>

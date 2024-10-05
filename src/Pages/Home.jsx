@@ -8,7 +8,7 @@ import HeroS from '../Images/HeroS.jpg'
 import HeroT from '../Images/Jewell.jpg'
 // import HerovdoF from '../Videos/HerovdoF.mp4'
 import PngS from '../Images/PngS.png'
-import AbtF from '../Images/AboutBrF.png'
+import AbtF from '../Images/AbtS.jpg'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
