@@ -1,9 +1,8 @@
 import { useState } from 'react';
-// import './App.css';
 import Card from '../Components/Card';
-import { Box } from '@mui/material';
+import {Box} from '@mui/material';
 
-const App = () => {
+const Buynow = () => {
   let [current, setCurrent] = useState('items'); 
   let data = [
       {
@@ -248,6 +247,7 @@ const App = () => {
       }
     ]
   let [filter, setfilter] = useState(data)
+
   function manageData(item) {
     setfilter(data.filter(el => item === "All" ? data : el.category === item))
     setCurrent(item);
@@ -259,17 +259,19 @@ const App = () => {
       <button className={current === "jewelery" ? 'active' : ""} onClick={() => manageData("jewelery")}>jewelery</button>
       <button className={current === "electronics" ? 'active' : ""} onClick={() => manageData("electronics")}>electronics</button>
       <button className={current === "women's-clothing" ? 'active' : ""} onClick={() => manageData("women's-clothing")}>women's-clothing</button> 
-      {
-        filter.map((el, i) => {
-          return  (
-            <Box>
-                <Card ImageCard={el.image} priceCard={el.price} HeadingCard={el.title}/>
-            </Box>
-          )
-        })
-      }
+      <div>
+        <Box sx={{ display:'flex',flexWrap:'wrap',gap:'10px',justifyContent:'center'}}>
+          {
+            filter.map((el, i) => {
+              return  (
+                <Card ImageCard={el.image} HeadingCard={el.title} Price={el.price} Description={el.description} Category={el.category} Rating={el.rating}/>
+              )
+            })
+          }
+        </Box>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Buynow;
