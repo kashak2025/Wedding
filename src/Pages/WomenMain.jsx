@@ -356,6 +356,361 @@ const WomenMain = () => {
           rate: 3.6,
           count: 145
         }
+      },
+      {
+        id: 33,
+        title: "Orangish Gold Zari Chanderi Silk Saree With Unstitched Blouse",
+        price: 39.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/o/r/orangish_gold_zari_chanderi_silk_saree_with_unstitched_blous-sg213341_6_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 34,
+        title: "Pink Organza Saree With Cutdana Work Sequins Border Pallu And Unstitched Blouse",
+        price: 9.85,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/p/i/pink_organza_saree_with_cutdana_work_sequins_border_pallu_an-sg220468_8_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 35,
+        title: "Orange Embroidered Organza Saree With Floral Print And Scallop Borders",
+        price: 7.95,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/o/r/orange_embroidered_organza_saree_with-sg157610_6_.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 36,
+        title: "Peach Embroidered Saree With Unstitched Blouse",
+        price: 12.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/p/e/peach_embroidered_saree_with_unstitched_blouse-sg212386_7_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 37,
+        title: "Black Saree With Kashmiri Thread Work And Unstitched Blouse Piece",
+        price: 39.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/l/black_saree_with_kashmiri-sg181611_7_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 38,
+        title: "Onion Pink Banarasi Tunchui Silk Saree With Tassels And Unstitched Blouse Piece",
+        price: 9.85,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/o/n/onion_pink_banarasi_tunchui_silk_saree_with_tassels_and_unst-sg212913_7_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 39,
+        title: "Purple Embroidered Organza Saree With Unstitched Blouse",
+        price: 7.95,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/p/u/purple_embroidered_organza_saree_with_unstitched_blouse-sg227237_9_.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 40,
+        title: "Grey Glass Tissue Saree With Mirror Work Border And Unstitched Blouse Piece",
+        price: 12.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/g/r/grey_glass_tissue_saree_with_mirror_work_border_and_unstitched-sg187290_7_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 41,
+        title: "Elegant Sea Blue Saree With Resham Thread Artistry",
+        price: 39.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/e/l/elegant_sea_blue_saree_with_resham_thread_artistry-sg214129_6_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 42,
+        title: "Mauve Tissue Saree In White Moti And Cut Dana Embroidery Buttis, Border Has Cutwork Embroidery Detailing",
+        price: 9.85,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/m/a/mauve_tissue_saree_in_white_moti_and_cut_dana_embroidery-k073272906y-sg99252_2_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 43,
+        title: "Blue Satin Saree With Printed Detail And Unstitched Blouse Piece",
+        price: 7.95,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/l/blue_satin_saree_with_printed_detail_and_unstitched_blouse_p-sg182295_9_.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 44,
+        title: "Brown Glass Tissue Saree In Swarovski With Unstitched Blouse",
+        price: 12.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/r/brown_glass_tissue_saree_in_swarovski_with_unstitched_blouse-sg220461_7_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 45,
+        title: "Golden Silk Saree With Exquisite Resham Thread Butti Work",
+        price: 39.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/g/o/golden_silk_saree_with_exquisite_resham_thread_butti_work-sg214157_2_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 46,
+        title: "Black Silk Saree In Butta Work With Unstitched Blouse",
+        price: 9.85,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/l/black_silk_saree_in_butta_work_with_unstitched_blouse-sg227296_10_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 47,
+        title: "Gold Beige Saree In Zari Kota Silk With Hand Embroidered Floral Jaal Using Resham Threads",
+        price: 7.95,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/g/o/gold_beige_saree_in_zari_kota_silk_with_hand_embroidered_floral_jaal_using_resham_threads_online_-_kalki_fashion_3__1.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 48,
+        title: "Black Net Saree With Floral Threadwork And Unstitched Blouse Piece",
+        price: 12.99,
+        product: "saree",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/l/black_net_saree_with_floral_threadwork_and_unstit-sg174305.jpg",
+        rating: {
+          rate: 5,
+          count: 145
+        }
+      }
+
+
+      ,
+      {
+        id: 49,
+        title: "Pink Printed Pashmina Kurta Set For Men",
+        price: 39.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/p/i/pink_printed_pashmina_kurta_set_for_men-sg253991_7_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 50,
+        title: "Black Silk Kurta Set With Resham Work For Men",
+        price: 9.85,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/catalog/product/b/l/black_silk_kurta_set_with_resham_work_for_men-sg244633_2_.jpg?w=400",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 51,
+        title: "Green Tussar Silk Print Kurta And Pyjama",
+        price: 7.95,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/catalog/product/g/r/green_tussar_silk_print_kurta_and_pyjama-sg254112_5_.jpg?w=400",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 52,
+        title: "Cream Printed Kurta With Patiala For Men",
+        price: 12.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/c/r/cream_printed_kurta_with_patiala_for_men-sg246279_7_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 53,
+        title: " Mustard Tussar Silk Abstract Print Kurta And Pyjama ",
+        price: 39.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/catalog/product/m/u/mustard_tussar_silk_abstract_print_kurta_and_pyjama-sg254120_5_.jpg?w=400",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 54,
+        title: "Green Printed Kurta For Men",
+        price: 9.85,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/g/r/green_printed_kurta_for_men-sg246655_7_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 55,
+        title: "Pink Silk Printed Kurta Set For Men",
+        price: 7.95,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/p/i/pink_printed_silk_kurta_set_for_men-sg254039_5_.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 56,
+        title: "Beige Satin Printed Kurta Set For Men",
+        price: 12.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/b/e/beige_satin_printed_kurta_set_for_men-sg246455_5_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 57,
+        title: "Blue Abla Work Kurta Set For Men",
+        price: 39.99,
+        product: "kurta",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc2vAnnOC6jEY8u1xu40vYuZgEck8tjuh0HaG52-s-dOkMNPPc4GV9Dmv1Y2I2iL1OV7E&usqp=CAU",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 58,
+        title: "Pink Amil Kurta wore by Kartik Aryan",
+        price: 9.85,
+        product: "kurta",
+        image: "https://www.anitadongre.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_AD_India/default/dw4e55fa42/images/hires/FW22/F22K15CS_Pink_Celeb_1.jpg?sw=1300&sh=1950&sm=fit",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 59,
+        title: "Passionate Sun Black Kurta Full Fits ",
+        price: 7.95,
+        product: "kurta",
+        image: "https://i.pinimg.com/736x/6a/ca/a4/6acaa4d16c4ed074a9aa9d068db1d4cd.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 60,
+        title: "Navy Blue Embroidered Silk Kurta Set For Men",
+        price: 12.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/n/a/navy_blue_embroidered_silk_kurta_set_for_men-sg229158_5_.jpg",
+        rating: {
+          rate: 3.6,
+          count: 145
+        }
+      },
+      {
+        id: 61,
+        title: "Yellow Kurta Pyjama With Resham Work For Men",
+        price: 39.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/y/e/yellow_kurta_pyjama_with_resham_work_for_men-sg226101_5_.jpg",
+        rating: {
+          rate: 3.8,
+          count: 679
+        }
+      },
+      {
+        id: 62,
+        title: "Wine Patola Printed Kurta Jacket Set For Men",
+        price: 9.85,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/w/i/wine_printed_kurta_jacket_set_for_men-sg227836_3_.jpg",
+        rating: {
+          rate: 4.7,
+          count: 130
+        }
+      },
+      {
+        id: 63,
+        title: "Grey Silk Kurta Jacket Set With Mirror Work For Men",
+        price: 7.95,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/g/r/grey_silk_kurta_jacket_set_with_mirror_work_for_men-sg229214_6_.jpg",
+        rating: {
+          rate: 4.5,
+          count: 146
+        }
+      },
+      {
+        id: 64,
+        title: "Steel Grey Kurta With Cutdana Embroidered Jacket Set For Men",
+        price: 12.99,
+        product: "kurta",
+        image: "https://staticm247.kalkifashion.com/media/tagalys/product_images/s/t/steel_grey_kurta_with_cutdana_embroidered_jacket_set-sg228198_5_.jpg",
+        rating: {
+          rate: 5,
+          count: 145
+        }
       }
       
     ]
@@ -371,6 +726,9 @@ const WomenMain = () => {
       <button className={current === "men's-clothing" ? 'active' : ""} onClick={() => manageData("men's-clothing")}>men's-clothing</button>
       <button className={current === "Gown" ? 'active' : ""} onClick={() => manageData("Gown")}>Gown</button>
       <button className={current === "choli" ? 'active' : ""} onClick={() => manageData("choli")}>Choli</button>
+      <button className={current === "saree" ? 'active' : ""} onClick={() => manageData("saree")}>Saree</button>
+      <button className={current === "kurta" ? 'active' : ""} onClick={() => manageData("kurta")}>Kurta</button>
+      <button className={current === "Sherwani" ? 'active' : ""} onClick={() => manageData("Sherwani")}>Sherwani</button>
       <button className={current === "women's-clothing" ? 'active' : ""} onClick={() => manageData("women's-clothing")}>women's-clothing</button> 
       <div>
         <Box sx={{ display:'flex',flexWrap:'wrap',gap:'10px',justifyContent:'center'}}>

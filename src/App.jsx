@@ -14,44 +14,46 @@ import {
 import CategoryMain from './Pages/CategoryMain';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
+import WomenMain from './Pages/WomenMain';
 import Buynow from './Pages/WomenMain';
 
 function App() {
   return (
     <>
-    <Router>
-      <Header />
-      <div>
-      <Switch>
-          <Route exact path="/">
-            <Home />
-            <Logo />
-            <Category/>
-            <Review />
-          </Route>
-          <Route path="/about">
-            <AboutUs />
-          </Route>
-          <Route path="/category">
-            <CategoryMain />
-          </Route>
-          <Route path="/blog">
-            <Blog />
-          </Route>
-          <Route path="/blog">
-            <Blog />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-    
-    {/* <Buynow/> */}
+      <Router>
+        <Header />
+        <div>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+              <Logo />
+              <Category />
+              <Review />
+            </Route>
+            <Route path="/about">
+              <AboutUs />
+            </Route>
+            <Route path="/category">
+              <CategoryMain />
+              <WomenMain />
+            </Route>
+            <Route path="/blog">
+              <Blog />
+            </Route>
+            <Route path="/blog">
+              <Blog />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+
+      {/* <Buynow/> */}
     </>
   );
 }

@@ -3,9 +3,9 @@ import React from 'react'
 import '../App.css';
 import Hero from '../Images/Hero.jpg'
 import PngF from '../Images/Pngf.png'
+import PngS from '../Images/PngS.png'
 import HeroS from '../Images/HeroS.jpg'
 import HeroT from '../Images/groom1.jpg'
-import PngS from '../Images/PngS.png'
 import AbtF from '../Images/AbtS.jpg'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
