@@ -56,15 +56,63 @@
   background-size: cover;
 }
 
+.log-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-box {
+  width: 30%;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: rgb(110, 172, 218) 0px 0px 5px;
+  box-shadow: 9px 9px 20px -9px #3b3b3b;
+}
+
+.log-admin {
+  margin: 0px 0px 20px;
+  font-size: 2.125rem;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+}
+
+.log-form {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0px;
+  padding: 0px;
+  margin: 0px 0px 20px 0;
+  border: 0px;
+  width: 100%;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
 .log-sub {
-  padding: 10px 30px;
-  background-color: #2f0707;
-  font-size: 20px;
+  padding: 9px 20px;
+  background-color: #3b3b3b;
+  font-size: 14px;
   color: #fff;
   text-align: center;
-  font-family :"Prosto One", system-ui;
   border: none;
+  box-shadow: #6EACDA 0px 0px 5px;
+}
 
+.log-sub a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
 }
 /* button{
   width: 150px;
